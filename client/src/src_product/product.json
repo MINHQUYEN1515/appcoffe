@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "name":"coffe đen",
+        "price":13,
+        "url":"src/src_product/img_product/cafe_den.jpg"
+    },
+    {
+        "id":1,
+        "name":"coffe sữa",
+        "price":15,
+        "url":"src/src_product/img_product/cafe_sua.jpg"
+    },
+    {
+        "id":2,
+        "name":"bạc xỉu",
+        "price":20,
+        "url":"src/src_product/img_product/bacxiu.jpg"
+    },
+    {
+        "id":3,
+        "name":"nước ép cam",
+        "price":20,
+        "url":"src/src_product/img_product/nuoccam.jpg"
+    },
+    {
+        "id":4,
+        "name":"trà đào",
+        "price":25,
+        "url":"src/src_product/img_product/tradao.jpg"
+    },
+    {
+        "id":5,
+        "name":"nước chanh",
+        "price":20,
+        "url":"src/src_product/img_product/nuocchanh.jpg"
+    }
+
+]
