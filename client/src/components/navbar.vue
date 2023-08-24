@@ -1,9 +1,7 @@
 <template>
     <div class="navbar">
         <div class="navbar_left">
-            <div class="navbar_left-icon" @click="changeactive">
-                <font-awesome-icon :icon="['fas', 'bars']" />
-            </div>
+
                 <img src="img/logo.jpg" alt="" class="image imagelogo">
 
         </div>
@@ -22,7 +20,16 @@
 </template>
 
 <script>
-
+    export default{
+        props:{
+            changeclass:{
+                type:Boolean
+            }
+        },
+      setup({changeclass},{emit}){
+       
+        }
+    }
 </script>
 <style lang="scss" scoped>
     .navbar{

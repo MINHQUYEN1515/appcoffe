@@ -1,8 +1,8 @@
 <template>
   <div class="app">
-    <Title></Title>
+    <Title ></Title>
     <div class="content">
-        <Sidebar class="sileabr"/>
+        <Sidebar class="silebar"/>
          <Home :makerting="makerting"
          ></Home>
     </div>
@@ -19,17 +19,7 @@
   import Silebar from './components/silebar.vue'
   import {reactive,ref} from 'vue'
   export default{
-    data(){
-      return{
-        dataproduct:[]   
-    }
-  },
 
-    methods:{
-      check (){
-        console.log(this.dataproduct)
-      }
-    },
     components:{
       Title:Title,
       Home:Home,
@@ -60,8 +50,7 @@
       }])
 
         // create dataproduct
-        
-      return {makerting}
+
     },
   
   }
@@ -83,7 +72,7 @@
       display: flex;
       flex-direction: row;
       & .silebar{
-        display: none;
+        display: block;
       }
 
     }
@@ -93,4 +82,7 @@
       background-color: #333;
       
     }
+      .active{
+             display: none;
+            }
 </style>

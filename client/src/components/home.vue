@@ -59,6 +59,7 @@
             text-indent:32px;
             max-height: 200px;
             padding: 50px;
+            cursor: pointer;
              & .getstart{
             width: 150px;
             height: 50px;
@@ -70,6 +71,7 @@
                 background-color: pink;
                 border-radius: 10px;
                 font-weight: 600;
+                cursor: pointer;
 
             }
         }
@@ -88,7 +90,7 @@
             & img{
                 width: 100%;
                 height: 100%;
-                border-radius: 15px;
+                border-radius: 50%;
             }
         }
     }
